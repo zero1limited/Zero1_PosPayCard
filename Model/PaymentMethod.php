@@ -1,8 +1,10 @@
+<?php
 namespace Zero1\PosPayCard\Model;
+
 
 class PaymentMethod extends \Magento\Payment\Model\Method\AbstractMethod
 {
-    protected $_code = 'cash_payment';
+    protected $_code = 'zero1_pos_pay_card';
     protected $_isOffline = true;
 
     public function isAvailable(\Magento\Quote\Api\Data\CartInterface $quote = null)
