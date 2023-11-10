@@ -5,7 +5,7 @@
                 <active>1</active>
                 <model>Zero1\PosPayCard\Model\PaymentMethod</model>
                 <order_status>processing</order_status>
-                <title>POS Cash Payment</title>
+                <title>POS Card Payment</title>
             </zero1_pos_pay_card>
         </payment>
     </default>
