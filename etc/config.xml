@@ -1,12 +1,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/config.xsd">
     <default>
         <payment>
-            <zero1_pos_pay_card>
+            <openpos_pay_card>
                 <active>1</active>
                 <model>Zero1\PosPayCard\Model\PaymentMethod</model>
                 <order_status>processing</order_status>
                 <title>POS Card Payment</title>
-            </zero1_pos_pay_card>
+            </openpos_pay_card>
         </payment>
     </default>
 </config>
